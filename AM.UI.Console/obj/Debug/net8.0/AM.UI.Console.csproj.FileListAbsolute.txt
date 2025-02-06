@@ -16,3 +16,4 @@ C:\Users\R I B\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net8.0\ref
 C:\Users\R I B\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.pdb
 C:\Users\R I B\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.genruntimeconfig.cache
 C:\Users\R I B\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net8.0\ref\AM.UI.Console.dll
+C:\Users\R I B\source\repos\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.sourcelink.json

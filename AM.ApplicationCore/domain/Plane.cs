@@ -22,7 +22,7 @@ namespace AM.ApplicationCore.domain
 
         public override string ToString()
         {
-            return "Capacity :"+Capacity + "PlaneType :" + PlaneType ;
+            return "Capacity :"+Capacity + "PlaneType :" + PlaneType;
         }
     }
 }
