@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,8 @@ namespace AM.ApplicationCore.domain
 {
     public class Flight
     {
+        internal object Passengers;
+
         public String Destination { get; set; }
         public String Departure { get; set; }
         public DateTime FlightDate { get; set; }

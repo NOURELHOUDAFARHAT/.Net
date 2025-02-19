@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Security.Cryptography;
+using AM.ApplicationCore.domain;
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
 
@@ -46,3 +48,16 @@ Console.WriteLine("**********show flights*********");
 fm.ShowLightDetails(TestData.BoingPlane);
 Console.WriteLine("**********sProgrammedFlightNumbers*********");
 Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2021, 12, 31)));
+Console.WriteLine("**********Average duration *********");
+Console.WriteLine(fm.DurationAverage("Paris"));
+Console.WriteLine("**********Ordered flights *********");
+foreach(Flight f in fm.OrderedDurationFlights())
+    Console.WriteLine(f.Destination+""+f.EstimationDuration);
+
+Console.WriteLine("**********Senior Travellers *********");
+foreach (Traveller t in fm.SeniorTravellers(TestData.flight1))
+    Console.WriteLine(t.FirstName + "" + t.BirthDate);
+Console.WriteLine(fm.DurationAverageDel(("Madrid")));
+fm.DestinationGroupedFlights();
+/*p1.UpperFullName();
+Console.WriteLine(p1.FirstName+ ""+p1.LastName);*/
