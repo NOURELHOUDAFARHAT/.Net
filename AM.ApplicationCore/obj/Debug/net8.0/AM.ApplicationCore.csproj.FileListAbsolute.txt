@@ -10,3 +10,4 @@ C:\Users\R I B\source\repos\AirportManagement\AM.ApplicationCore\obj\Debug\net8.
 C:\Users\R I B\source\repos\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.pdb
 C:\Users\R I B\source\repos\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\ref\AM.ApplicationCore.dll
 C:\Users\R I B\source\repos\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.sourcelink.json
+C:\Users\R I B\source\repos\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.csproj.AssemblyReference.cache
