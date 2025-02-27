@@ -23,7 +23,7 @@ using AM.ApplicationCore.Services;
 //    , PlaneType = PlaneType.Boeing
 //};
 //Console.WriteLine(plane);
-//Passenger p1 = new Passenger { FirstName = "first", LastName = "last", EmailAddress = "first@gmail.com" };
+Passenger p1 = new Passenger { FirstName = "first", LastName = "last", EmailAddress = "first@gmail.com" };
 //Staff staff = new Staff();
 //Traveller traveller = new Traveller();
 
@@ -53,7 +53,8 @@ Console.WriteLine(fm.DurationAverage("Paris"));
 Console.WriteLine("**********Ordered flights *********");
 foreach(Flight f in fm.OrderedDurationFlights())
     Console.WriteLine(f.Destination+""+f.EstimationDuration);
-
+Console.WriteLine(p1.CheckProfile("first", "last"));
+Console.WriteLine(p1.CheckProfile("first", "last", "e"));
 Console.WriteLine("**********Senior Travellers *********");
 foreach (Traveller t in fm.SeniorTravellers(TestData.flight1))
     Console.WriteLine(t.FirstName + "" + t.BirthDate);

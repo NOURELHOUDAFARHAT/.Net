@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,8 +22,10 @@ namespace AM.ApplicationCore.domain
 
         public int EstimationDuration { get; set; }
         public Plane plane { get; set; }
+        [ForeignKey("Plane")]
+        public int PlaneFk {  get; set; }
         public ICollection<Passenger> passengers { get; set; }
-        public string AirlineLogo { get; set; }
+        public string AirlineLogo {  get; set; }
         public override string ToString()
         {
             return "Flight date: " + FlightDate + " Destination: " + Destination
